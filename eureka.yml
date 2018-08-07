@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: hystrix
+  cloud:
+    config:
+      enabled: false
+server:
+  port: 6221
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
