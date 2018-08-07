@@ -1,6 +1,15 @@
 server:
   port: 0
-
+hystrix:
+  command:
+    default: 
+      execution:
+        timeout:
+          enabled: false
+ribbon:
+  ConnectTimeout:  10000
+  ReadTimeout:  10000
+  
 api:
   root: https://api.meetup.com
   token: 0690063821de17153d529eb82d71901a
