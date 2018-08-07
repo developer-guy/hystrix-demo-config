@@ -3,7 +3,7 @@ server:
 
 api:
   root: https://api.meetup.com
-  token: 3b10358523617f4047582f3c28014
+  token: 32759c71cae27e83468a0fcf088c5ca0
 
 management:
   endpoints:
