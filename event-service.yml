@@ -4,7 +4,7 @@ server:
 api:
   root: https://api.meetup.com
   token: 0690063821de17153d529eb82d71901a
-  rate-limit: 3
+  rate-limit: 4
   
 management:
   endpoints:
