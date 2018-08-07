@@ -1,6 +1,10 @@
 server:
   port: 0
-  
+
+api:
+  root: https://api.meetup.com
+  token: 3b10358523617f4047582f3c28014
+
 management:
   endpoints:
     web:
