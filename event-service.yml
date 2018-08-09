@@ -8,8 +8,8 @@ hystrix:
         timeout:
           enabled: false
 ribbon:
-  ConnectTimeout:  10000
-  ReadTimeout:  10000
+  ConnectTimeout:  5000
+  ReadTimeout:  5000
 
 api:
   root: https://api.meetup.com
