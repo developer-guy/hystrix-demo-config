@@ -7,10 +7,6 @@ hystrix:
       execution:
         timeout:
           enabled: false
-ribbon:
-  ConnectTimeout:  5000
-  ReadTimeout:  5000
-
 api:
   root: https://api.meetup.com
   token: 221a6adea7a10f1d293a97ce02eeee95
