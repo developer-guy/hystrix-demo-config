@@ -2,6 +2,9 @@ server:
   port: 0
   
 spring:
+  cache:
+   ehcache:
+    config: classpath:ehcache.xml
   datasource:
     url: jdbc:h2:tcp://localhost:9096/~/test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     platform: h2
