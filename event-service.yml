@@ -17,7 +17,7 @@ ribbon:
 
 api:
   root: https://api.meetup.com
-  token: 0690063821de17153d529eb82d71901a
+  token: b4c78dc4031f2608ca9439cd13dac92f
   rate-limit: 4
 
 management:
