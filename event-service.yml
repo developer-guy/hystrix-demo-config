@@ -9,9 +9,9 @@ hystrix:
           enabled: false
 api:
   root: https://api.meetup.com
-  token: 221a6adea7a10f1d293a97ce02eeee95
-  events-rate-limit: 2
-  event-rate-limit: 2
+  token: 9457f1a11a90fc4085804256365d2e2b
+  events-rate-limit: 5
+  event-rate-limit: 5
 
 management:
   endpoints:
